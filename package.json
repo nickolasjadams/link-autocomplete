@@ -1,10 +1,10 @@
 {
-  "name": "@editorjs/link-autocomplete",
+  "name": "@stegopop/link-autocomplete",
   "version": "0.0.0",
   "description": "Link Autocomplete Inline Tool for EditorJS",
   "main": "dist/link-autocomplete.js",
-  "repository": "https://github.com/editor-js/link-autocomplete.git",
-  "author": "CodeX <team@codex.so>",
+  "repository": "https://github.com/nickolasjadams/link-autocomplete.git",
+  "author": "CodeX <team@codex.so>, and Nick Adams",
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode production",
