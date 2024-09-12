@@ -1,6 +1,23 @@
 # Link Autocomplete
 
 An upgraded version of base inline link tool with your server's search.
+A fork of the codex plugin. I tried multiple times (<a href="https://github.com/editor-js/link-autocomplete/pull/9">PR1</a>, <a href="https://github.com/editor-js/link-autocomplete/pull/11">PR2</a>) to work with the maintainer 
+to create PRs that they would merge, but they wouldn't provide helpful feedback as to why they weren't suitable to merge other than that the first PR was too large. The second PR was a smaller PR fixing less problems at once with a list of test instructions. This PR was never responded to. 
+
+This version fixes 
+- Fixes issue #8: Impossible to disable server search
+  - You may disable server calls by removing the endpoint from the config.
+- Fixes unreported issue: Url Validation is broken.
+- Fixes issue #6: Support mailto: URL scheme
+- Added support for 3 URI schemes
+  - view-source
+  - mailto
+  - tel
+- Added support for Url fragments like this &lt;a href="#lower_in_the_document"&gt; (works well in conjunction with https://github.com/Aleksst95/header-with-anchor)
+- Add a checkbox to support opening links in new tabs
+- Fixed warnings from the linter.
+- Adds type='button' to inline toolbar to prevent form submissions when editor.js is placed within form tags.
+
 
 ![](example/assets/example.png)
 
@@ -146,19 +163,3 @@ i18n: {
   }
 },
 ```
-
-# Support maintenance 🎖
-
-If you're using this tool and editor.js in your business, please consider supporting their maintenance and evolution.
-
-[http://opencollective.com/editorjs](http://opencollective.com/editorjs)
-
-# About CodeX
-
-<img align="right" width="100" height="100" src="https://codex.so/public/app/img/codex-logo.svg" hspace="50">
-
-CodeX is a team of digital specialists around the world interested in building high-quality open source products on a global market. We are [open](https://codex.so/join) for young people who want to constantly improve their skills and grow professionally with experiments in leading technologies.
-
-| 🌐 | Join  👋  | Twitter | Instagram |
-| -- | -- | -- | -- |
-| [codex.so](https://codex.so) | [codex.so/join](https://codex.so/join) |[@codex_team](http://twitter.com/codex_team) | [@codex_team](http://instagram.com/codex_team) |
