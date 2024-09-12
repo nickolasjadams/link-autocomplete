@@ -244,7 +244,7 @@ export default class LinkAutocomplete {
      *
      * @type {HTMLButtonElement}
      */
-    this.nodes.toolButtons = Dom.make('button', this.api.styles.inlineToolButton, { type: 'buttton' });
+    this.nodes.toolButtons = Dom.make('button', this.api.styles.inlineToolButton, { type: 'button' });
 
     /**
      * Create Link button
