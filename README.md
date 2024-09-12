@@ -16,7 +16,7 @@ This version fixes
 - Added support for Url fragments like this &lt;a href="#lower_in_the_document"&gt; (works well in conjunction with https://github.com/Aleksst95/header-with-anchor)
 - Add a checkbox to support opening links in new tabs
 - Fixed warnings from the linter.
-- Adds type='button' to inline toolbar to prevent form submissions when editor.js is placed within form tags.
+- Adds type='button' to inline toolbar to prevent form submissions when creating links.
 
 
 ![](example/assets/example.png)
