@@ -28,11 +28,11 @@ This version fixes
 Get the package
 
 ```shell
-npm i --save-dev @editorjs/link-autocomplete
+npm i --save-dev @stegopop/link-autocomplete
 ```
 
 ```shell
-yarn add -D @editorjs/link-autocomplete
+yarn add -D @stegopop/link-autocomplete
 ```
 
 ### Load from CDN
@@ -40,7 +40,7 @@ yarn add -D @editorjs/link-autocomplete
 You can use package from jsDelivr CDN.
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@editorjs/link-autocomplete"></script>
+<script src="https://cdn.jsdelivr.net/npm/@stegopop/link-autocomplete"></script>
 ```
 
 ## Usage
